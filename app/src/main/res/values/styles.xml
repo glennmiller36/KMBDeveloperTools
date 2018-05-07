@@ -1,0 +1,310 @@
+<resources>
+
+    <!-- Base -->
+    <style name="BaseTheme.Dark" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/material_grey_900</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textColorPrimary">#ffffff</item>
+        <item name="android:textColorSecondary">#ffffff</item>
+        <item name="colorAccent">#ffffff</item>
+        <item name="android:divider">#80bebebe</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="BaseTheme.Light" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/material_grey_100</item>
+        <item name="android:textColor">#1b1b1b</item>
+        <item name="android:textColorPrimary">#1b1b1b</item>
+        <item name="android:textColorSecondary">#1b1b1b</item>
+        <item name="colorAccent">#4b4b4b</item>
+        <item name="android:divider">#80323232</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="BaseTheme.Dialog.Dark" parent="Theme.AppCompat.Dialog">
+        <item name="android:textColorPrimary">#ffffff</item>
+        <item name="android:textColorSecondary">#c1c1c1</item>
+        <item name="android:textColorTertiary">#ffffff</item>   <!-- dialog title -->
+        <item name="android:divider">#5f5f5f</item>
+        <item name="colorAccent">#c1c1c1</item> <!-- controls -->
+        <item name="android:background">@color/material_grey_800</item>
+        <item name="android:textColorHint">#aaaaaa</item>
+    </style>
+    <style name="BaseTheme.Dialog.Light" parent="Theme.AppCompat.Dialog">
+        <item name="android:textColorPrimary">#1b1b1b</item>
+        <item name="android:textColorSecondary">#4b4b4b</item>
+        <item name="android:textColorTertiary">#000000</item>   <!-- dialog title -->
+        <item name="android:divider">#d5d5d5</item>
+        <item name="colorAccent">#4b4b4b</item> <!-- controls -->
+        <item name="android:background">@color/material_grey_50</item>
+        <item name="android:textColorHint">#aaaaaa</item>
+    </style>
+    <!-- Base End -->
+
+    <!-- Red Theme -->
+    <style name="AppTheme.Red.Dark" parent="BaseTheme.Dark">
+        <item name="colorAccent">@color/material_red_500</item>
+    </style>
+    <style name="AppTheme.Red.Light" parent="BaseTheme.Light">
+        <item name="colorAccent">@color/material_red_500</item>
+    </style>
+    <style name="Dialog.Red.Dark" parent="BaseTheme.Dialog.Dark">
+        <item name="colorAccent">@color/material_red_500</item>
+    </style>
+    <style name="Dialog.Red.Light" parent="BaseTheme.Dialog.Light">
+        <item name="colorAccent">@color/material_red_500</item>
+    </style>
+
+    <!-- Pink Theme -->
+    <style name="AppTheme.Pink.Dark" parent="BaseTheme.Dark">
+        <item name="colorAccent">@color/material_pink_500</item>
+    </style>
+    <style name="AppTheme.Pink.Light" parent="BaseTheme.Light">
+        <item name="colorAccent">@color/material_pink_500</item>
+    </style>
+    <style name="Dialog.Pink.Dark" parent="BaseTheme.Dialog.Dark">
+        <item name="colorAccent">@color/material_pink_500</item>
+    </style>
+    <style name="Dialog.Pink.Light" parent="BaseTheme.Dialog.Light">
+        <item name="colorAccent">@color/material_pink_500</item>
+    </style>
+
+    <!-- Purple Theme -->
+    <style name="AppTheme.Purple.Dark" parent="BaseTheme.Dark">
+        <item name="colorAccent">@color/material_purple_500</item>
+    </style>
+    <style name="AppTheme.Purple.Light" parent="BaseTheme.Light">
+        <item name="colorAccent">@color/material_purple_500</item>
+    </style>
+    <style name="Dialog.Purple.Dark" parent="BaseTheme.Dialog.Dark">
+        <item name="colorAccent">@color/material_purple_500</item>
+    </style>
+    <style name="Dialog.Purple.Light" parent="BaseTheme.Dialog.Light">
+        <item name="colorAccent">@color/material_purple_500</item>
+    </style>
+
+    <!-- Deep Purple Theme -->
+    <style name="AppTheme.DeepPurple.Dark" parent="BaseTheme.Dark">
+        <item name="colorAccent">@color/material_deeppurple_500</item>
+    </style>
+    <style name="AppTheme.DeepPurple.Light" parent="BaseTheme.Light">
+        <item name="colorAccent">@color/material_deeppurple_500</item>
+    </style>
+    <style name="Dialog.DeepPurple.Dark" parent="BaseTheme.Dialog.Dark">
+        <item name="colorAccent">@color/material_deeppurple_500</item>
+    </style>
+    <style name="Dialog.DeepPurple.Light" parent="BaseTheme.Dialog.Light">
+        <item name="colorAccent">@color/material_deeppurple_500</item>
+    </style>
+
+    <!-- Indigo Theme -->
+    <style name="AppTheme.Indigo.Dark" parent="BaseTheme.Dark">
+        <item name="colorAccent">@color/material_indigo_500</item>
+    </style>
+    <style name="AppTheme.Indigo.Light" parent="BaseTheme.Light">
+        <item name="colorAccent">@color/material_indigo_500</item>
+    </style>
+    <style name="Dialog.Indigo.Dark" parent="BaseTheme.Dialog.Dark">
+        <item name="colorAccent">@color/material_indigo_500</item>
+    </style>
+    <style name="Dialog.Indigo.Light" parent="BaseTheme.Dialog.Light">
+        <item name="colorAccent">@color/material_indigo_500</item>
+    </style>
+
+    <!-- Blue Theme -->
+    <style name="AppTheme.Blue.Dark" parent="BaseTheme.Dark">
+        <item name="colorAccent">@color/material_blue_500</item>
+    </style>
+    <style name="AppTheme.Blue.Light" parent="BaseTheme.Light">
+        <item name="colorAccent">@color/material_blue_500</item>
+    </style>
+    <style name="Dialog.Blue.Dark" parent="BaseTheme.Dialog.Dark">
+        <item name="colorAccent">@color/material_blue_500</item>
+    </style>
+    <style name="Dialog.Blue.Light" parent="BaseTheme.Dialog.Light">
+        <item name="colorAccent">@color/material_blue_500</item>
+    </style>
+
+    <!-- Light Blue Theme -->
+    <style name="AppTheme.LightBlue.Dark" parent="BaseTheme.Dark">
+        <item name="colorAccent">@color/material_lightblue_500</item>
+    </style>
+    <style name="AppTheme.LightBlue.Light" parent="BaseTheme.Light">
+        <item name="colorAccent">@color/material_lightblue_500</item>
+    </style>
+    <style name="Dialog.LightBlue.Dark" parent="BaseTheme.Dialog.Dark">
+        <item name="colorAccent">@color/material_lightblue_500</item>
+    </style>
+    <style name="Dialog.LightBlue.Light" parent="BaseTheme.Dialog.Light">
+        <item name="colorAccent">@color/material_lightblue_500</item>
+    </style>
+
+    <!-- Cyan Theme -->
+    <style name="AppTheme.Cyan.Dark" parent="BaseTheme.Dark">
+        <item name="colorAccent">@color/material_cyan_500</item>
+    </style>
+    <style name="AppTheme.Cyan.Light" parent="BaseTheme.Light">
+        <item name="colorAccent">@color/material_cyan_500</item>
+    </style>
+    <style name="Dialog.Cyan.Dark" parent="BaseTheme.Dialog.Dark">
+        <item name="colorAccent">@color/material_cyan_500</item>
+    </style>
+    <style name="Dialog.Cyan.Light" parent="BaseTheme.Dialog.Light">
+        <item name="colorAccent">@color/material_cyan_500</item>
+    </style>
+
+    <!-- Teal Theme -->
+    <style name="AppTheme.Teal.Dark" parent="BaseTheme.Dark">
+        <item name="colorAccent">@color/material_teal_500</item>
+    </style>
+    <style name="AppTheme.Teal.Light" parent="BaseTheme.Light">
+        <item name="colorAccent">@color/material_teal_500</item>
+    </style>
+    <style name="Dialog.Teal.Dark" parent="BaseTheme.Dialog.Dark">
+        <item name="colorAccent">@color/material_teal_500</item>
+    </style>
+    <style name="Dialog.Teal.Light" parent="BaseTheme.Dialog.Light">
+        <item name="colorAccent">@color/material_teal_500</item>
+    </style>
+
+    <!-- Green Theme -->
+    <style name="AppTheme.Green.Dark" parent="BaseTheme.Dark">
+        <item name="colorAccent">@color/material_green_500</item>
+    </style>
+    <style name="AppTheme.Green.Light" parent="BaseTheme.Light">
+        <item name="colorAccent">@color/material_green_500</item>
+    </style>
+    <style name="Dialog.Green.Dark" parent="BaseTheme.Dialog.Dark">
+        <item name="colorAccent">@color/material_green_500</item>
+    </style>
+    <style name="Dialog.Green.Light" parent="BaseTheme.Dialog.Light">
+        <item name="colorAccent">@color/material_green_500</item>
+    </style>
+
+    <!-- Light Green Theme -->
+    <style name="AppTheme.LightGreen.Dark" parent="BaseTheme.Dark">
+        <item name="colorAccent">@color/material_lightgreen_500</item>
+    </style>
+    <style name="AppTheme.LightGreen.Light" parent="BaseTheme.Light">
+        <item name="colorAccent">@color/material_lightgreen_500</item>
+    </style>
+    <style name="Dialog.LightGreen.Dark" parent="BaseTheme.Dialog.Dark">
+        <item name="colorAccent">@color/material_lightgreen_500</item>
+    </style>
+    <style name="Dialog.LightGreen.Light" parent="BaseTheme.Dialog.Light">
+        <item name="colorAccent">@color/material_lightgreen_500</item>
+    </style>
+
+    <!-- Lime Theme -->
+    <style name="AppTheme.Lime.Dark" parent="BaseTheme.Dark">
+        <item name="colorAccent">@color/material_lime_500</item>
+    </style>
+    <style name="AppTheme.Lime.Light" parent="BaseTheme.Light">
+        <item name="colorAccent">@color/material_lime_500</item>
+    </style>
+    <style name="Dialog.Lime.Dark" parent="BaseTheme.Dialog.Dark">
+        <item name="colorAccent">@color/material_lime_500</item>
+    </style>
+    <style name="Dialog.Lime.Light" parent="BaseTheme.Dialog.Light">
+        <item name="colorAccent">@color/material_lime_500</item>
+    </style>
+
+    <!-- Yellow Theme -->
+    <style name="AppTheme.Yellow.Dark" parent="BaseTheme.Dark">
+        <item name="colorAccent">@color/material_yellow_500</item>
+    </style>
+    <style name="AppTheme.Yellow.Light" parent="BaseTheme.Light">
+        <item name="colorAccent">@color/material_yellow_500</item>
+    </style>
+    <style name="Dialog.Yellow.Dark" parent="BaseTheme.Dialog.Dark">
+        <item name="colorAccent">@color/material_yellow_500</item>
+    </style>
+    <style name="Dialog.Yellow.Light" parent="BaseTheme.Dialog.Light">
+        <item name="colorAccent">@color/material_yellow_500</item>
+    </style>
+
+    <!-- Amber Theme -->
+    <style name="AppTheme.Amber.Dark" parent="BaseTheme.Dark">
+        <item name="colorAccent">@color/material_amber_500</item>
+    </style>
+    <style name="AppTheme.Amber.Light" parent="BaseTheme.Light">
+        <item name="colorAccent">@color/material_amber_500</item>
+    </style>
+    <style name="Dialog.Amber.Dark" parent="BaseTheme.Dialog.Dark">
+        <item name="colorAccent">@color/material_amber_500</item>
+    </style>
+    <style name="Dialog.Amber.Light" parent="BaseTheme.Dialog.Light">
+        <item name="colorAccent">@color/material_amber_500</item>
+    </style>
+
+    <!-- Orange Theme -->
+    <style name="AppTheme.Orange.Dark" parent="BaseTheme.Dark">
+        <item name="colorAccent">@color/material_orange_500</item>
+    </style>
+    <style name="AppTheme.Orange.Light" parent="BaseTheme.Light">
+        <item name="colorAccent">@color/material_orange_500</item>
+    </style>
+    <style name="Dialog.Orange.Dark" parent="BaseTheme.Dialog.Dark">
+        <item name="colorAccent">@color/material_orange_500</item>
+    </style>
+    <style name="Dialog.Orange.Light" parent="BaseTheme.Dialog.Light">
+        <item name="colorAccent">@color/material_orange_500</item>
+    </style>
+
+    <!-- Deep Orange Theme -->
+    <style name="AppTheme.DeepOrange.Dark" parent="BaseTheme.Dark">
+        <item name="colorAccent">@color/material_deeporange_500</item>
+    </style>
+    <style name="AppTheme.DeepOrange.Light" parent="BaseTheme.Light">
+        <item name="colorAccent">@color/material_deeporange_500</item>
+    </style>
+    <style name="Dialog.DeepOrange.Dark" parent="BaseTheme.Dialog.Dark">
+        <item name="colorAccent">@color/material_deeporange_500</item>
+    </style>
+    <style name="Dialog.DeepOrange.Light" parent="BaseTheme.Dialog.Light">
+        <item name="colorAccent">@color/material_deeporange_500</item>
+    </style>
+
+    <!-- Brown Theme -->
+    <style name="AppTheme.Brown.Dark" parent="BaseTheme.Dark">
+        <item name="colorAccent">@color/material_brown_500</item>
+    </style>
+    <style name="AppTheme.Brown.Light" parent="BaseTheme.Light">
+        <item name="colorAccent">@color/material_brown_500</item>
+    </style>
+    <style name="Dialog.Brown.Dark" parent="BaseTheme.Dialog.Dark">
+        <item name="colorAccent">@color/material_brown_500</item>
+    </style>
+    <style name="Dialog.Brown.Light" parent="BaseTheme.Dialog.Light">
+        <item name="colorAccent">@color/material_brown_500</item>
+    </style>
+
+    <!-- Grey Theme -->
+    <style name="AppTheme.Grey.Dark" parent="BaseTheme.Dark">
+        <item name="colorAccent">@color/material_grey_500</item>
+    </style>
+    <style name="AppTheme.Grey.Light" parent="BaseTheme.Light">
+        <item name="colorAccent">@color/material_grey_500</item>
+    </style>
+    <style name="Dialog.Grey.Dark" parent="BaseTheme.Dialog.Dark">
+        <item name="colorAccent">@color/material_grey_500</item>
+    </style>
+    <style name="Dialog.Grey.Light" parent="BaseTheme.Dialog.Light">
+        <item name="colorAccent">@color/material_grey_500</item>
+    </style>
+
+    <!-- Light Grey Theme -->
+    <style name="AppTheme.BlueGrey.Dark" parent="BaseTheme.Dark">
+        <item name="colorAccent">@color/material_bluegrey_500</item>
+    </style>
+    <style name="AppTheme.BlueGrey.Light" parent="BaseTheme.Light">
+        <item name="colorAccent">@color/material_bluegrey_500</item>
+    </style>
+    <style name="Dialog.BlueGrey.Dark" parent="BaseTheme.Dialog.Dark">
+        <item name="colorAccent">@color/material_bluegrey_500</item>
+    </style>
+    <style name="Dialog.BlueGrey.Light" parent="BaseTheme.Dialog.Light">
+        <item name="colorAccent">@color/material_bluegrey_500</item>
+    </style>
+
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuEdit"
+        android:orderInCategory="100"
+        android:title="@string/edit"
+        android:icon="@drawable/ic_edit_primary"
+        app:showAsAction="ifRoom|withText"
+        android:visible="false"/>
+
+    <item
+        android:id="@+id/menuDelete"
+        android:orderInCategory="200"
+        android:title="@string/delete"
+        android:icon="@drawable/ic_delete_primary"
+        app:showAsAction="ifRoom|withText"
+        android:visible="false"/>
+
+    <item
+        android:id="@+id/menuCopy"
+        android:orderInCategory="300"
+        android:title="@string/copy"
+        android:icon="@drawable/ic_copy_primary"
+        app:showAsAction="ifRoom|withText"
+        android:visible="false"/>
+
+    <item
+        android:id="@+id/menuRecordCount"
+        android:orderInCategory="400"
+        android:title="@string/no_query_results"
+        app:showAsAction="ifRoom|withText"/>
+
+    <item
+        android:id="@+id/menuFullScreen"
+        android:orderInCategory="500"
+        android:title="@string/full_screen"
+        android:icon="@drawable/ic_full_screen"
+        app:showAsAction="ifRoom|withText"/>
+
+    <item
+        android:id="@+id/menuExitFullScreen"
+        android:orderInCategory="600"
+        android:title="@string/exit_full_screen"
+        android:icon="@drawable/ic_exit_full_screen"
+        app:showAsAction="ifRoom|withText"
+        android:visible="false"/>
+
+</menu>

@@ -1,0 +1,17 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/pref_title_appearance">
+        <ListPreference
+            android:key="prefAppearanceTheme"
+            android:entries="@array/prefThemes"
+            android:entryValues="@array/prefThemesValues"
+            android:title="@string/theme" />
+
+        <ListPreference
+            android:key="prefAppearanceAccent"
+            android:entries="@array/prefAccents"
+            android:entryValues="@array/prefAccentsValues"
+            android:title="@string/accent_color" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

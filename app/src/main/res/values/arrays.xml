@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="prefThemes">
+        <item name="dark">Dark</item>
+        <item name="light">Light</item>
+    </string-array>
+    <string-array name="prefThemesValues">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="prefAccents">
+        <item name="none">None</item>
+        <item name="red">Red</item>
+        <item name="pink">Pink</item>
+        <item name="purple">Purple</item>
+        <item name="depppurple">Deep Purple</item>
+        <item name="indigo">Indigo</item>
+        <item name="blue">Blue</item>
+        <item name="lightblue">Light Blue</item>
+        <item name="cyan">Cyan</item>
+        <item name="teal">Teal</item>
+        <item name="green">Green</item>
+        <item name="lightgreen">Light Green</item>
+        <item name="lime">Lime</item>
+        <item name="yellow">Yellow</item>
+        <item name="amber">Amber</item>
+        <item name="orange">Orange</item>
+        <item name="deeporange">Deep Orange</item>
+        <item name="brown">Brown</item>
+        <item name="grey">Grey</item>
+        <item name="bluegrey">Blue Grey</item>
+    </string-array>
+    <string-array name="prefAccentsValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.jjkeller.kmb.developertools.activity.BluetoothPairedActivity"
+    tools:showIn="@layout/activity_bluetooth_paired">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:background="?attr/colorButtonNormal"
+        android:padding="16dp">
+        <ImageView
+            android:id="@+id/imageBluetoothSearching"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_bluetooth_searching"
+            android:layout_gravity="center"
+            android:visibility="invisible"
+            android:tint="?attr/colorAccent"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bluetooth_setting"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_gravity="center"/>
+
+            <LinearLayout
+                android:id="@+id/switchClickableContainer"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="right">
+
+                <Switch
+                    android:id="@+id/switchBluetooth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:focusable="false"
+                    android:clickable="false"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/listPairedDevices"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/textNoRecords"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="?android:attr/actionMenuTextColor"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:id="@+id/llProgressContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="?android:attr/actionMenuTextColor"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/loading"/>
+
+    </LinearLayout>
+
+</LinearLayout>

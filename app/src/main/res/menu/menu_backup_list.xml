@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.jjkeller.kmb.developertools.activity.BackupListActivity">
+
+    <item
+        android:id="@+id/menuBackup"
+        android:orderInCategory="100"
+        android:title="@string/backup_now"
+        android:icon="@drawable/ic_backup_white"
+        app:showAsAction="ifRoom|withText" />
+
+    <item
+        android:id="@+id/menuEmail"
+        android:orderInCategory="200"
+        android:title="@string/email"
+        android:icon="@drawable/ic_email_white"
+        app:showAsAction="ifRoom|withText" />
+
+    <item
+        android:id="@+id/menuDelete"
+        android:orderInCategory="300"
+        android:title="@string/delete"
+        android:icon="@drawable/ic_delete_white"
+        app:showAsAction="ifRoom|withText" />
+
+</menu>

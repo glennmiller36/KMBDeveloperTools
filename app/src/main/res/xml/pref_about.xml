@@ -1,0 +1,44 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/pref_title_app">
+        <EditTextPreference
+            android:selectable="false"
+            android:title="@string/pref_title_appversion"
+            android:key="prefAppVersion"/>
+        <EditTextPreference
+            android:selectable="false"
+            android:title="@string/pref_title_appbuilddate"
+            android:key="prefAppBuildDate"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_title_device">
+        <EditTextPreference
+            android:selectable="false"
+            android:title="@string/pref_title_devicemanufacturer"
+            android:key="prefDeviceManufacturer"/>
+        <EditTextPreference
+            android:selectable="false"
+            android:title="@string/pref_title_devicemodel"
+            android:key="prefDeviceModel"/>
+        <EditTextPreference
+            android:selectable="false"
+            android:title="@string/pref_title_devicebrand"
+            android:key="prefDeviceBrand"/>
+        <EditTextPreference
+            android:selectable="false"
+            android:title="@string/pref_title_deviceandroidversion"
+            android:key="prefDeviceAndroidVersion"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_title_database">
+        <EditTextPreference
+            android:selectable="false"
+            android:title="@string/pref_title_databasepath"
+            android:key="prefDatabasePath"/>
+        <EditTextPreference
+            android:selectable="false"
+            android:title="@string/pref_title_databaseversion"
+            android:key="prefDatabaseVersion"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

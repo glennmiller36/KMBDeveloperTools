@@ -1,0 +1,20 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- These settings headers are only used on tablets. -->
+
+    <header
+        android:fragment="com.jjkeller.kmb.developertools.activity.SettingsActivity$AboutPreferenceFragment"
+        android:icon="@drawable/ic_info_outline"
+        android:title="@string/pref_header_about"/>
+
+    <header
+        android:fragment="com.jjkeller.kmb.developertools.activity.SettingsActivity$DisplayPreferenceFragment"
+        android:icon="@drawable/ic_brightness"
+        android:title="@string/pref_header_display"/>
+
+    <header
+        android:fragment="com.jjkeller.kmb.developertools.activity.SettingsActivity$TermsOfServicePreferenceFragment"
+        android:icon="@drawable/ic_verified_user"
+        android:title="@string/pref_header_privacyandterms"/>
+
+</preference-headers>

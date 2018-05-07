@@ -1,0 +1,16 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/pref_title_policies">
+        <Preference android:title="@string/pref_title_privacypolicy"
+            android:summary="@string/pref_summary_privacypolicy">
+            <intent android:action="android.intent.action.VIEW"
+                    android:data="https://www.jjkeller.com/learn/privacy-policy" />
+        </Preference>
+        <Preference android:title="@string/pref_title_termsofservice"
+                    android:summary="@string/pref_summary_termsofservice">
+            <intent android:action="android.intent.action.VIEW"
+                    android:data="https://www.jjkeller.com/learn/lp-jjkeller-mobile-application-end-user-license-agreement" />
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

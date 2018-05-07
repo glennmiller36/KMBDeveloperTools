@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\gsm5925\.android\build-cache\a3ff5538ce2fd59bb60b5d729d7372279d132dd0\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="4119ea97a7191ff9b8f33b534ea220448f62f491">
+        <dex dex="C:\gitrepo\KMBPlatform\dev\android\DeveloperTools\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-e770f1305a3ae9ffa9c2e8fb5e76f12f5919a3bc.jar" />
+    </item>
+    <item
+        jar="C:\Users\gsm5925\.android\build-cache\67e4a1311cd8f860649f13e665671ea7559b0171\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="fb68af9d822e43b656b9dcba16277ffb8792043c">
+        <dex dex="C:\gitrepo\KMBPlatform\dev\android\DeveloperTools\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-915204944a595262833119fd8901f2ee1cddf8b4.jar" />
+    </item>
+    <item
+        jar="C:\Users\gsm5925\.android\build-cache\cf9606d9a2e38563f494729dd3c6b0009eb47611\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\gitrepo\KMBPlatform\dev\android\DeveloperTools\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-798d4a4803e0dba778ebd6740393bcc51495fe73.jar" />
+    </item>
+    <item
+        jar="C:\Users\gsm5925\.android\build-cache\64d3d3fda4645fb7c1522b3ca2c759437f788373\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\gitrepo\KMBPlatform\dev\android\DeveloperTools\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-6516c6cf808dfd8a542c2ca5ae424b158eaf673b.jar" />
+    </item>
+    <item
+        jar="C:\Users\gsm5925\.android\build-cache\074edf75449663f177ea88dd2a5a5d6fa8c0976e\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="C:\gitrepo\KMBPlatform\dev\android\DeveloperTools\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-7f3d797e01dd9a544f482ec98636e33fc8263f10.jar" />
+    </item>
+    <item
+        jar="C:\Users\gsm5925\.android\build-cache\4b108654b931d55216124cc4d259548d4ac32df7\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\gitrepo\KMBPlatform\dev\android\DeveloperTools\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-4c40e6c15205d7e737d33d49e73743faf808e36d.jar" />
+    </item>
+    <item
+        jar="C:\Users\gsm5925\.android\build-cache\1d3a6bef6ce0f08a46db5b54dcdfe2d5dba15ba0\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="d29e451fd5bcc265989bf80afd4f149d95d72e7d">
+        <dex dex="C:\gitrepo\KMBPlatform\dev\android\DeveloperTools\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-bb2a2d06cfc645eec804e1d626ccd2c29e02511a.jar" />
+    </item>
+    <item
+        jar="C:\Users\gsm5925\.gradle\caches\modules-2\files-2.1\com.github.mnadeem\sql-table-name-parser\0.0.5\d9e087d657ae9ad7bd2a5a97dadf3a5097d72220\sql-table-name-parser-0.0.5.jar"
+        revision="25.0.2"
+        sha1="d9e087d657ae9ad7bd2a5a97dadf3a5097d72220">
+        <dex dex="C:\gitrepo\KMBPlatform\dev\android\DeveloperTools\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\sql-table-name-parser-0.0.5-989c1b0aad62f44786ce0f7514516b5f4e19d881.jar" />
+    </item>
+    <item
+        jar="C:\Users\gsm5925\.android\build-cache\1539ab7cb3c1e3af314db3e0e99a7dd54b2a7f6c\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\gitrepo\KMBPlatform\dev\android\DeveloperTools\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-ed950c22165302852fe253e46af2abc8c0ed3ba7.jar" />
+    </item>
+    <item
+        jar="C:\Users\gsm5925\.android\build-cache\00d2e27a4d226b1b3b44149cfe7ffa1d52c3e4cb\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="c2deeac83ffa1304264bc755c2ddb84e7a7fa239">
+        <dex dex="C:\gitrepo\KMBPlatform\dev\android\DeveloperTools\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-1fd3878602da2777ec31510b40db5b7e3af82e22.jar" />
+    </item>
+    <item
+        jar="C:\Users\gsm5925\AppData\Local\Android\Sdk\platforms\android-25\android.jar"
+        revision="25.0.2"
+        sha1="712a0312fe844a21a1b3812fa960c363a1578984">
+        <dex dex="C:\gitrepo\KMBPlatform\dev\android\DeveloperTools\app\build\intermediates\transforms\preJackRuntimeLibraries\debug\jars\8000\40\android-00fe9fa9cce5cc60ec5a853d27f8a204f3f12643.jar" />
+    </item>
+    <item
+        jar="C:\Users\gsm5925\.android\build-cache\6eabbb0559d653f85306181444d4b393ddc422a3\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="409b5dd2e9d02914d6a30fc38c1c90b2d678d600">
+        <dex dex="C:\gitrepo\KMBPlatform\dev\android\DeveloperTools\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-035fe4deaf7c373401a644e883616ee56a3a4c4e.jar" />
+    </item>
+    <item
+        jar="C:\Users\gsm5925\.android\build-cache\000ad1711320f26613756114568f46b6d766b5e6\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="C:\gitrepo\KMBPlatform\dev\android\DeveloperTools\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-a1c4ff2abc3729202ae1df3b679c9f87b6be538b.jar" />
+    </item>
+    <item
+        jar="C:\Users\gsm5925\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        revision="25.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="C:\gitrepo\KMBPlatform\dev\android\DeveloperTools\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\gson-2.7-76c349b0ed41b9d1e3ab2d6e0baabb8236db11be.jar" />
+    </item>
+    <item
+        jar="C:\Users\gsm5925\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\25.4.0\f6a2fc748ae3769633dea050563e1613e93c135e\support-annotations-25.4.0.jar"
+        revision="25.0.2"
+        sha1="f6a2fc748ae3769633dea050563e1613e93c135e">
+        <dex dex="C:\gitrepo\KMBPlatform\dev\android\DeveloperTools\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\support-annotations-25.4.0-abb9d065204689118436b124dd2db8f1a142a99c.jar" />
+    </item>
+    <item
+        jar="C:\Users\gsm5925\.android\build-cache\bc0e74cb3eb2bdd0692d7a44695112be88f066bf\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="e04f28ac2dd9bbe48ced6fc87fedf46c2586f5d6">
+        <dex dex="C:\gitrepo\KMBPlatform\dev\android\DeveloperTools\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-de936c2c1ca3cd919258771baf2f4560ea88f7a4.jar" />
+    </item>
+    <item
+        jar="C:\Users\gsm5925\.android\build-cache\ef1037e313b9534060377b99e51ba3b56129ac9e\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="05e3d15c623cd98f0eb43c8249fb6151fae0786c">
+        <dex dex="C:\gitrepo\KMBPlatform\dev\android\DeveloperTools\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-77582fd70f950ed18c1dd2a6a0d71bff3cf30217.jar" />
+    </item>
+    <item
+        jar="C:\Users\gsm5925\.android\build-cache\6acec16b728fe3218af66c5dfc83c3241d9b7166\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="a64026daf4819a589aea776f5deb19b257a104d1">
+        <dex dex="C:\gitrepo\KMBPlatform\dev\android\DeveloperTools\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-750252cf2fb6749aa6c2d43fcb6f8bf7da20c340.jar" />
+    </item>
+    <item
+        jar="C:\Users\gsm5925\.android\build-cache\11fd6c2c113d91b5b499a1c820286cbdc35ea2f7\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="C:\gitrepo\KMBPlatform\dev\android\DeveloperTools\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-293436717e9b51ebf62751b495236d7b880328d7.jar" />
+    </item>
+    <item
+        jar="C:\Users\gsm5925\.android\build-cache\39839a3d08d007ffdf6d3a17420afc08786693d1\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="C:\gitrepo\KMBPlatform\dev\android\DeveloperTools\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-ee1473f67bd8a817f24acc2acb02cb66507c6776.jar" />
+    </item>
+    <item
+        jar="C:\Users\gsm5925\AppData\Local\Android\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\gitrepo\KMBPlatform\dev\android\DeveloperTools\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\constraint-layout-solver-1.0.2-ed7ee7f6c83ddaf5eb12bad008d2c872589ca69b.jar" />
+    </item>
+    <item
+        jar="C:\Users\gsm5925\AppData\Local\Android\Sdk\platforms\android-25\optional\org.apache.http.legacy.jar"
+        revision="25.0.2"
+        sha1="5f0541a4298daa0590b22cfbde43f85e2a675545">
+        <dex dex="C:\gitrepo\KMBPlatform\dev\android\DeveloperTools\app\build\intermediates\transforms\preJackRuntimeLibraries\debug\jars\8000\40\org.apache.http.legacy-0bb6173813737c84f2d79b681fda026feb8bb557.jar" />
+    </item>
+    <item
+        jar="C:\Users\gsm5925\.gradle\caches\modules-2\files-2.1\org.reactivestreams\reactive-streams\1.0.0\14b8c877d98005ba3941c9257cfe09f6ed0e0d74\reactive-streams-1.0.0.jar"
+        revision="25.0.2"
+        sha1="14b8c877d98005ba3941c9257cfe09f6ed0e0d74">
+        <dex dex="C:\gitrepo\KMBPlatform\dev\android\DeveloperTools\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\reactive-streams-1.0.0-4af11e1a47bb3366c17265c5acace110181e65ee.jar" />
+    </item>
+    <item
+        jar="C:\Users\gsm5925\.gradle\caches\modules-2\files-2.1\io.reactivex.rxjava2\rxjava\2.0.8\47fadd5ff70f325e520fbc491227bd9283a48f95\rxjava-2.0.8.jar"
+        revision="25.0.2"
+        sha1="47fadd5ff70f325e520fbc491227bd9283a48f95">
+        <dex dex="C:\gitrepo\KMBPlatform\dev\android\DeveloperTools\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\rxjava-2.0.8-4dd7d795e1ff12023980df3ea94f3f2286f5a42d.jar" />
+    </item>
+    <item
+        jar="C:\Users\gsm5925\.android\build-cache\8cd6245f2a4de5a51ad6a45160b02f7ff8749ecd\output\jars\classes.jar"
+        revision="25.0.2"
+        sha1="b77e50b3c31d0fc64148530f7077f79ec114b5b9">
+        <dex dex="C:\gitrepo\KMBPlatform\dev\android\DeveloperTools\app\build\intermediates\transforms\preJackPackagedLibraries\debug\jars\8000\1f\classes-4eba9df17540abe9e2bcc3c8305af7e17918a266.jar" />
+    </item>
+
+</items>

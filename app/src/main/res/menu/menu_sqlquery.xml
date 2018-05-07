@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuExecute"
+        android:orderInCategory="100"
+        android:title="@string/execute"
+        android:icon="@drawable/ic_play_white"
+        app:showAsAction="ifRoom|withText" />
+
+    <item
+        android:id="@+id/menuClear"
+        android:orderInCategory="200"
+        android:title="@string/clear"
+        android:icon="@drawable/ic_clear_white"
+        app:showAsAction="ifRoom|withText" />
+
+    <item
+        android:id="@+id/menuOpenSqlScript"
+        android:orderInCategory="300"
+        android:title="@string/open_script"
+        android:icon="@drawable/ic_script_white"
+        app:showAsAction="ifRoom|withText" />
+
+    <item
+        android:id="@+id/menuSaveSqlScript"
+        android:orderInCategory="400"
+        android:title="@string/save_script"
+        android:icon="@drawable/ic_done_white"
+        app:showAsAction="ifRoom|withText" />
+
+</menu>

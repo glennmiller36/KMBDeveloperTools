@@ -1,0 +1,209 @@
+<resources>
+    <string name="app_name">KMB Developer Tools</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_backup_list">Database Management</string>
+    <string name="loading">Loading...</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="error_message">ERROR: %s</string>
+    <string name="error">Error</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="copy">Copy</string>
+    <string name="restore">Restore</string>
+    <string name="confirm_deletion">Confirm Deletion</string>
+    <string name="delete_selected_records">Are you sure you want to delete the selected records?</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+    <string name="saveas_dotdotdot">Save As...</string>
+    <string name="refresh">Refresh</string>
+    <string name="email">Email</string>
+    <string name="kmb_database">KMB Database</string>
+    <string name="kmb_error_log">KMB Error Log</string>
+    <string name="file_does_no_exist">File \'%s\' does no exist</string>
+    <string name="file_not_deleted">File \'%s\' was not deleted</string>
+    <string name="and">and</string>
+    <string name="temp_directory_does_no_exist">Temp directory does no exist</string>
+    <string name="dark">dark</string>
+
+    <!-- Main Activity -->
+    <string name="checking_status">Checking Status...</string>
+    <string name="kmb_database_version">KMB Database version:</string>
+    <string name="bluetooth_terminal">Bluetooth Terminal</string>
+    <string name="bluetooth_terminal_description">Transmit and receive data from a compatible, paired ELD Device.</string>
+
+    <!-- Backup List Activity -->
+    <string name="backup_now">Backup Now</string>
+    <string name="no_backup_files_exist">No Backup Files Exist</string>
+    <string name="error_backup_list">Error Accessing Backup List</string>
+    <string name="file_size_kb">%d KB</string>
+    <string name="file_size_mb">%d MB</string>
+    <string name="prompt_delete_backup">Delete backup \'%s\'?</string>
+    <string name="prompt_restore_backup">Restore database \'%s\'?</string>
+    <string name="progress_deleting">Deleting...</string>
+    <string name="delete_successful">Delete successful</string>
+    <string name="delete_failed">Delete failed</string>
+    <string name="progress_restoring">Restoring...</string>
+    <string name="restore_successful">Restore successful</string>
+    <string name="progress_backingup">Backing up...</string>
+    <string name="backup_successful">Backup successful</string>
+    <string name="title_activity_sqlquery">SQL Query</string>
+    <string name="confirm_restore">Confirm Restore</string>
+    <string name="date_colon">DATE:</string>
+    <string name="size_colon">SIZE:</string>
+    <string name="backup_default_name">kmb_[Now()]</string>
+    <string name="now_syntax">[Now()]</string>
+    <string name="database_management">Database Management</string>
+    <string name="database_management_description">Manage KMB database backups or restore an earlier backup.</string>
+    <string name="backup_restore_database">Backup and Restore</string>
+
+    <!-- SQL Query Activity -->
+    <string name="unsupported_sql_command">SQL query must start with SELECT | INSERT | UPDATE | DELETE or PRAGMA command statement.</string>
+    <string name="inserted_row_id">Inserted Row ID</string>
+    <string name="rows_updated">Rows Updated</string>
+    <string name="rows_deleted">Rows Deleted</string>
+    <string name="executing_query">Executing query...</string>
+    <string name="no_query_results">No Query Results</string>
+    <string name="query_completed_with_errors">Query completed with errors</string>
+    <string name="row_count">%d Rows</string>
+    <string name="sql_delete">DELETE FROM %1$s WHERE KEY IN (%2$s)</string>
+    <string name="more_dotdotdot">More…</string>
+    <string name="open_script">Open Script</string>
+    <string name="save_script">Save Script</string>
+    <string name="clear">Clear</string>
+    <string name="null_string">(null)</string>
+    <string name="sql_select_name">[ SQL Select ]</string>
+    <string name="sql_select_template">SELECT * FROM table_name \nWHERE condition</string>
+    <string name="sql_insert_name">[ SQL Insert Into ]</string>
+    <string name="sql_insert_template">INSERT INTO table_name (column1, column2, column3, …) \nVALUES (value1, value2, value3, …)</string>
+    <string name="sql_update_name">[ SQL Update ]</string>
+    <string name="sql_update_template">UPDATE table_name \nSET column1 = value1, column2 = value2, … \nWHERE condition</string>
+    <string name="sql_delete_name">[ SQL Delete ]</string>
+    <string name="sql_delete_template">DELETE FROM table_name \nWHERE condition</string>
+    <string name="open_file">Open File</string>
+    <string name="save_file">Save File</string>
+    <string name="file_name">File name:</string>
+    <string name="sql_query">SQL Query</string>
+    <string name="sql_query_description">Execute SELECT, INSERT, UPDATE, DELETE or PRAGMA statements against the KMB database. View and Edit data in a table.</string>
+    <string name="execute">Execute</string>
+    <string name="execute_sql_query">Execute Query</string>
+    <string name="full_screen">Full-screen</string>
+    <string name="exit_full_screen">Exit Full-screen</string>
+    <string name="title_activity_sqledit">SQL Edit</string>
+    <string name="select_statement">SELECT %1$s FROM %2$s WHERE %3$s</string>
+    <string name="default_query">SELECT * FROM EmployeeLogEldEvent</string>
+
+    <!-- SQL Edit Activity -->
+    <string name="am">AM</string>
+    <string name="pm">PM</string>
+    <string name="saving">Saving...</string>
+    <string name="required">Required</string>
+    <string name="invalid">Invalid</string>
+    <string name="fixerrors">Fix the errors before saving.</string>
+    <string name="update_statement">UPDATE %1$s SET %2$s WHERE %3$s;</string>
+    <string name="insert_statement">INSERT INTO %1$s (%2$s) VALUES (%3$s);</string>
+    <string name="blob_string">(blob)</string>
+    <string name="autoincrement">(auto increment)</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Settings | About -->
+    <string name="pref_header_about">About</string>
+    <string name="pref_header_display">Display</string>
+    <string name="pref_title_app">Developer Tools App</string>
+    <string name="pref_title_appversion">App version</string>
+    <string name="pref_title_appbuilddate">Build Date</string>
+    <string name="pref_title_device">Device</string>
+    <string name="pref_title_devicemanufacturer">Manufacturer</string>
+    <string name="pref_title_devicemodel">Model</string>
+    <string name="pref_title_devicebrand">Brand</string>
+    <string name="pref_title_deviceandroidversion">Android version</string>
+    <string name="androidversionformat">%1$s (API level %2$s)</string>
+    <string name="title_activity_error_log">Error Log</string>
+    <string name="pref_title_database">KMB Database</string>
+    <string name="pref_title_databasepath">Path</string>
+    <string name="pref_title_databaseversion">Version</string>
+    <string name="no_kmb_database">Database does not exist</string>
+    <string name="kmb_database_notcompatible">Database not compatible with Developer Tools</string>
+    <string name="pref_title_appearance">Appearance</string>
+    <string name="theme">Theme</string>
+    <string name="accent_color">Accent Color</string>
+
+    <string name="pref_header_privacyandterms">Privacy &amp; Terms</string>
+    <string name="pref_title_policies">Policies</string>
+    <string name="pref_title_privacypolicy">Privacy Policy</string>
+    <string name="pref_summary_privacypolicy">Explains what information we collect and why and how we use it.</string>
+    <string name="pref_title_termsofservice">Terms of Service</string>
+    <string name="pref_summary_termsofservice">Describes the rules you agree to when using our services.</string>
+
+    <!-- ErrorLog Activity -->
+    <string name="no_errorlog_files_exist">kmberrlog.txt Does Not Exist</string>
+    <string name="kmb_diagnostic_files">KMB Developer Tools - Diagnostic Files</string>
+    <string name="find">Find...</string>
+    <string name="scroll_top">Scroll to Top</string>
+    <string name="scroll_bottom">Scroll to Bottom</string>
+    <string name="view_errorlog">View Error Log</string>
+    <string name="email_diagnostics">Email Diagnostics</string>
+    <string name="delete_diagnostics">Delete Diagnostics</string>
+
+    <!-- Diagnostic Dialog -->
+    <string name="delete_files">Delete Files</string>
+    <string name="attach_files">Attach Files</string>
+    <string name="send_via">Send via</string>
+    <string name="database_version">Database version</string>
+    <string name="diagnostics">Diagnostics</string>
+    <string name="diagnostic_description">View the Error Log. Email and delete the KMB database and error log.</string>
+
+    <!-- EditText Dialog -->
+    <string name="backup_file_name">Backup File Name</string>
+    <string name="find_text">Find Text (Case-sensitive)</string>
+    <string name="search">Search</string>
+
+    <!-- BluetoothPaired Activity -->
+    <string name="no_paired_eld">No ELD Devices Paired</string>
+    <string name="title_activity_bluetooth_paired">Paired ELD Devices</string>
+    <string name="bluetooth_setting">Bluetooth Setting</string>
+    <string name="bluetooth_disabled_cant_select_paired_device">Unable to connect to the selected device because the device\'s Bluetooth Setting is off.</string>
+
+    <!-- BluetoothTerminal Activity -->
+    <string name="device_does_not_support_bluetooth">Device does not support Bluetooth</string>
+    <string name="title_activity_bluetooth_terminal">Bluetooth Terminal</string>
+    <string name="connecting">Connecting...</string>
+    <string name="connected">Connected</string>
+    <string name="not_connected">Not Connected</string>
+    <string name="is_kmb_connected">Is KMB app connected?</string>
+    <string name="auto_retry">Auto Retry:</string>
+    <string name="prompt_reset_bluetooth">If the KellerMobile app is running, it may be Bluetooth connected to the ELD Device, blocking this app from connecting.\n\nDo you want to reset Bluetooth so it drops any connections to the ELD Device and attempt to reconnect?</string>
+    <string name="reset_bluetooth">Reset Bluetooth</string>
+    <string name="command_message">Command message</string>
+    <string name="command_message_required">Command Message is required.</string>
+    <string name="ok">OK</string>
+    <string name="orientation_change">Orientation change</string>
+    <string name="no_command_results_to_email">Console log is empty. Nothing to email.</string>
+    <string name="kmb_terminal_log">KMB Developer Tools - Terminal Log</string>
+    <string name="why_error">Why?</string>
+
+    <!-- TerminalAvailableCommands Activity -->
+    <string name="title_activity_terminal_commands">Terminal Commands</string>
+    <string name="favorites">Favorites</string>
+    <string name="all_commands">All Commands</string>
+    <string name="no_favorite_commands_defined">No Favorite Commands Defined</string>
+    <string name="no_commands_defined">No Commands Defined</string>
+    <string name="loading_help_all">Loading \'help all\' commands...</string>
+
+    <!-- Intro Activity -->
+    <string name="intro_devtools_title">KMB Developer Tools</string>
+    <string name="intro_devtools_description">KMB Developer Tools is a set of tools to access internal data of the Keller Mobile Application to help you test or diagnose problems quickly</string>
+    <string name="intro_sqlqueries_title">Execute SQL Queries</string>
+    <string name="intro_sqlqueries_description">Add, change, or delete records in the local KMB database</string>
+    <string name="intro_sqlitemanagement_title">Sqlite Management</string>
+    <string name="intro_sqlitemanagement_description">Backup and restore the KMB database so you can reuse test data</string>
+    <string name="intro_bluetoothterminal_title">Bluetooth Terminal</string>
+    <string name="intro_bluetoothterminal_description">Send and receive commands to a connected Bluetooth ELD device similiar to CoolTerm</string>
+    <string name="intro_diagnostics_title">Email or Delete Diagnostics</string>
+    <string name="intro_diagnostics_description">Email diagnostic information like the KMB database and Error Log to anyone</string>
+    <string name="intro_theming_title">Theming</string>
+    <string name="intro_theming_description">Customize your UI experience using the Light or the ever popular Dark theme</string>
+    <string name="got_it">Got It!</string>
+
+</resources>

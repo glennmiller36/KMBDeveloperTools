@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.jjkeller.kmb.developertools"
+          android:sharedUserId="com.jjkeller.kmb.shared">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+
+    <application
+        android:name=".KmbApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.BackupListActivity"
+            android:label="@string/title_activity_backup_list">
+        </activity>
+        <activity
+            android:name=".activity.SqlQueryActivity"
+            android:label="@string/title_activity_sqlquery"
+            android:windowSoftInputMode="stateHidden|adjustPan">
+        </activity>
+        <activity
+            android:name=".activity.SqlEditActivity"
+            android:label="@string/title_activity_sqledit">
+        </activity>
+        <activity
+            android:name=".activity.SettingsActivity"
+            android:label="@string/title_activity_settings">
+        </activity>
+        <activity
+            android:name=".activity.ErrorLogActivity"
+            android:label="@string/title_activity_error_log">
+        </activity>
+        <activity
+            android:name=".activity.BluetoothTerminalActivity"
+            android:label="@string/title_activity_bluetooth_terminal">
+        </activity>
+        <activity
+            android:name=".activity.BluetoothPairedActivity"
+            android:label="@string/title_activity_bluetooth_paired">
+        </activity>
+        <activity
+            android:name=".activity.TerminalCommandsActivity"
+            android:label="@string/title_activity_terminal_commands">
+        </activity>
+        <activity
+            android:name=".activity.IntroActivity"
+            android:theme="@style/Theme.Intro"
+            android:noHistory="true" >
+        </activity>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.jjkeller.kmb.developertools.files"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>
